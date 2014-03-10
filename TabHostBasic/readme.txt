@@ -1,0 +1,1 @@
+from https://gist.github.com/JakeWharton/1126843  modified
