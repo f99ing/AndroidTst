@@ -5,5 +5,5 @@ ANDROID 版本2.3.6 <br>
 
 APP name :tst<br>
 
-
+with textView, editText, handles hard key touch event.
 
