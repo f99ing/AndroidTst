@@ -1,2 +1,2 @@
-android update project   --target 1 --path .
+android update project   --target android-10 --path .
  

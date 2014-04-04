@@ -14,10 +14,12 @@ public class tst extends Activity
     {
 		try
 		{
-			
+			Log.i("mytag","tst  onCreate"   );
+
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.main);
-			
+			Log.i("mytag","tst  setContentView"   );
+
 			final View view = this.findViewById(R.id.lltst);
 			final EditText myEdt= (EditText)findViewById(R.id.edit_text);
 			 
@@ -40,8 +42,6 @@ public class tst extends Activity
 				Log.i("mytag","you entered:"+ s  );
 			  }
 			});
-
-		
 		}
 		catch (Exception e)
 		{
