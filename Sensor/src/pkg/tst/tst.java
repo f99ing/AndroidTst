@@ -85,7 +85,7 @@ public class tst extends Activity  implements SensorEventListener
 	public final void onSensorChanged(SensorEvent event) {
 		try{
 			// The light sensor returns a single value.
-			// Many sensors return 3 values, one for each axis.
+			// Many sensors return 3 values, one for each axis. some return less or more.
 			float recDatax = event.values[0];// see SensorEvent.values for possible values and meaning. 
 			float recDatay = event.values[1];
 			float recDataz = event.values[2];
