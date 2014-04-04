@@ -15,5 +15,11 @@
     android:layout_width="fill_parent"   
     android:layout_height="wrap_content"   
     android:text="这是一个EditText"/>  
+	<Button
+	android:id="@+id/btnReq"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Make request"
+	/>
 </LinearLayout>
 
