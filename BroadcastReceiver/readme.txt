@@ -1,0 +1,1 @@
+receive  broadcast "tst.myBroadcast", extract data "name"
